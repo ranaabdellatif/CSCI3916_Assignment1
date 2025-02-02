@@ -17,3 +17,16 @@ app.post('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Echo server listening on port ${port}`);
 });
+
+/*
+  {
+    "name": "echo-server",
+    "version: 0.1.0",
+    "main" : "server.js",
+    "scripts" : {
+    "start": "start node server.js && node client.js",
+    "client" : "node client.js"
+    }
+
+*/
+
